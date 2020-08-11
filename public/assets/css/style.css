@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(253, 200, 55);
+  text-align: center;
+}
+
+h1{
+  text-align:center;
+  color: rgb(202, 57, 21);
+  font-size: 4em;
+}
+
+ol{
+ /* float: center; */
+ /* text-align: center; */
+ background: #ffe693; 
+ margin: 2px;
+ width: 25%;
+}
+
+li {
+  font-size: 1.5em;
+  padding: 5px;
+  margin: 2px;
+  /* border:1px solid grey; */
+  
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
