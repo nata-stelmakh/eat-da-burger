@@ -1,25 +1,25 @@
 <img src="https://lh3.googleusercontent.com/proxy/W5e_1AJ3UGSywPO6PPoY80HzsrUZQ4TY0_MxT0GaVSZhGgmL223qe-0KtYm4jpRk6ARzf7VrFXj05saNg6IvS25aM1xjSzz8YwhAMvrGfabFFw">
 <h1>Eat-Da-Burger!</h1>
 
-{{!-- <h2>Burgers that are not eaten yet!</h2> --}}
+<h2>Fresh and Delicious Burgers that waiting for you!</h2>
 
 <ol>
   {{#each burgers}}
-    {{!-- {{#unless devoured}} --}}
+    {{#unless devoured}}
       {{> burgers/burger-block devoured=true}}
-    {{!-- {{/unless}} --}}
+    {{/unless}}
   {{/each}}
 </ol>
 
-{{!-- <h2>Burgers that are devoured!</h2>
+ <h2>Burgers that are devoured!</h2>
 
-<ul>
+<ol>
   {{#each burgers}}
     {{#if devoured}}
       {{> burgers/burger-block devoured=false}}
     {{/if}}
   {{/each}}
-</ul> --}}
+</ol>
 
 {{!-- <h2>Add a Burger</h2> --}}
 <form class="create-form">

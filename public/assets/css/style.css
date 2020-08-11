@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(253, 200, 55);
+  /* background-color: rgb(253, 200, 55); */
   text-align: center;
 }
 
@@ -11,8 +11,8 @@ h1{
 
 ol{
  /* float: center; */
- /* text-align: center; */
- background: #ffe693; 
+ text-align: left;
+ background: #fdf3d3; 
  margin: 2px;
  width: 25%;
 }
