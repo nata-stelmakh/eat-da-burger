@@ -10,11 +10,11 @@ h1{
 }
 
 ol{
- /* float: center; */
- text-align: left;
- background: #fdf3d3; 
+ float: center;
+ text-align: center;
+ background: #f3f1ed; 
  margin: 2px;
- width: 25%;
+ 
 }
 
 li {
@@ -24,17 +24,18 @@ li {
   /* border:1px solid grey; */
   
 }
+button{
+  color:rgb(202, 57, 21) ;
+  font-size: 1em;
+}
 
 .label {
   font-weight: bold;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
-}
 
 .form-group {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  float: center;
 }

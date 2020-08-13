@@ -1,8 +1,8 @@
-<img src="https://lh3.googleusercontent.com/proxy/W5e_1AJ3UGSywPO6PPoY80HzsrUZQ4TY0_MxT0GaVSZhGgmL223qe-0KtYm4jpRk6ARzf7VrFXj05saNg6IvS25aM1xjSzz8YwhAMvrGfabFFw">
+
 <h1>Eat-Da-Burger!</h1>
 
-<h2>Fresh and Delicious Burgers that waiting for you!</h2>
 
+<h2>Fresh and Delicious Burgers are waiting for you!</h2>
 <ol>
   {{#each burgers}}
     {{#unless devoured}}
@@ -10,6 +10,8 @@
     {{/unless}}
   {{/each}}
 </ol>
+
+
 
  <h2>Burgers that are devoured!</h2>
 
@@ -21,20 +23,12 @@
   {{/each}}
 </ol>
 
-{{!-- <h2>Add a Burger</h2> --}}
 <form class="create-form">
 
   <div class="form-group">
-    {{!-- <label for="ca">Burger Name:</label> --}}
+    
     <input type="text" id="ca" name="burger_name">
   </div>
-
-  <div class="form-group">
-    <label for="devoured"></label><br>
-    {{!-- <input type="radio" name="devoured" value="1" checked> Devoured<br> --}}
-    <input type="radio" name="devoured" value="0">Waiting for ya
-  </div>
-
 
   <h3>Enter a burger that you want to eat.Press the button</h3>
   <button type="submit">Add Burger</button>
