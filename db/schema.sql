@@ -1,7 +1,7 @@
 ### Schema
-DROP DATABASE IF EXISTS zl4s61xsrgcohtn4;
-CREATE DATABASE zl4s61xsrgcohtn4;
-USE zl4s61xsrgcohtn4;
+DROP DATABASE IF EXISTS burgers_db;
+CREATE DATABASE burgers_db;
+USE burgers_db;
 
 CREATE TABLE burgers
 (
